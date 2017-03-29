@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "Events.h"
-
+#import "DateFormatString.h"
+#import <MapKit/MapKit.h>
 @interface BackgroundViewController : UIViewController
 @property Events *events;
+
 @end

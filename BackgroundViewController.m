@@ -7,13 +7,22 @@
 //
 
 #import "BackgroundViewController.h"
+#import "MasterViewController.h"
+
 
 @interface BackgroundViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
+
+@property (weak, nonatomic) IBOutlet UITextView *memoText;
+
+@property (weak, nonatomic) IBOutlet UILabel *datingLabel;
 @end
 
 @implementation BackgroundViewController
+
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,8 +35,16 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+    //画面にいろいろな情報を表示するメソッド
+    //画面が読み込まれて表示される前に呼ばれる
     self.titleLabel.text=self.events.title;
+    DateFormatString *aDateFormatter=[DateFormatString new];
+    NSString*viewDate = [aDateFormatter dateFormat24:self.events.date];
+    self.datingLabel.text=viewDate;
+    self.memoText.text=self.events.memo;
+    [super viewDidLoad];
+
+    
     // Do any additional setup after loading the view.
 }
 
@@ -36,6 +53,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 
 /*

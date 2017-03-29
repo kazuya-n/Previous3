@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Events.h"
+#import "DateFormatString.h"
+#import <Social/Social.h>
+#import "MasterViewController.h"
+#import "MemoViewController.h"
+#import <MapKit/MapKit.h>
 
-@interface DetailViewController : UITableViewController
+@interface EventViewController : UIViewController
+
+
+@property Events *events;
 
 @end

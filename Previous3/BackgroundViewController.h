@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Events.h"
+#import <MapKit/MapKit.h>
 
 @interface BackgroundViewController : UIViewController
 
+@property Events *events;
 @end

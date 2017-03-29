@@ -15,13 +15,21 @@
 		E7114230193210C600C88D90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E711422F193210C600C88D90 /* AppDelegate.m */; };
 		E7114233193210C600C88D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7114231193210C600C88D90 /* Main.storyboard */; };
 		E7114236193210C600C88D90 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7114235193210C600C88D90 /* MasterViewController.m */; };
-		E7114239193210C600C88D90 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7114238193210C600C88D90 /* DetailViewController.m */; };
 		E711423B193210C600C88D90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E711423A193210C600C88D90 /* Images.xcassets */; };
 		E7114242193210C600C88D90 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7114241193210C600C88D90 /* XCTest.framework */; };
 		E7114243193210C600C88D90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E711421F193210C600C88D90 /* Foundation.framework */; };
 		E7114244193210C600C88D90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7114223193210C600C88D90 /* UIKit.framework */; };
 		E711424C193210C600C88D90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E711424A193210C600C88D90 /* InfoPlist.strings */; };
 		E711424E193210C600C88D90 /* Previous3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E711424D193210C600C88D90 /* Previous3Tests.m */; };
+		E73BAECE1976063A0069FAF4 /* DateFormatString.m in Sources */ = {isa = PBXBuildFile; fileRef = E73BAECD1976063A0069FAF4 /* DateFormatString.m */; };
+		E79359DD197E745F0013485A /* MemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79359DC197E745F0013485A /* MemoViewController.m */; };
+		E7A1F2761971164700FC39FC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A1F2751971164700FC39FC /* Social.framework */; };
+		E7E3F1611996022600870DBB /* 3_5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E3F1601996022600870DBB /* 3_5inch.storyboard */; };
+		E7EDDB47194DBCF90081C656 /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EDDB46194DBCF90081C656 /* Events.m */; };
+		E7EDDB53194DC8680081C656 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EDDB52194DC8680081C656 /* EventViewController.m */; };
+		E7F2D6061988B37700F208CA /* BackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F2D6051988B37700F208CA /* BackgroundViewController.m */; };
+		E7F2D6081988C69800F208CA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F2D6071988C69800F208CA /* CoreLocation.framework */; };
+		E7F2D60A1988C7FE00F208CA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F2D6091988C7FE00F208CA /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +56,26 @@
 		E7114232193210C600C88D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7114234193210C600C88D90 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		E7114235193210C600C88D90 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		E7114237193210C600C88D90 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		E7114238193210C600C88D90 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		E711423A193210C600C88D90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E7114240193210C600C88D90 /* Previous3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Previous3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7114241193210C600C88D90 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E7114249193210C600C88D90 /* Previous3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Previous3Tests-Info.plist"; sourceTree = "<group>"; };
 		E711424B193210C600C88D90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E711424D193210C600C88D90 /* Previous3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Previous3Tests.m; sourceTree = "<group>"; };
+		E73BAECC1976063A0069FAF4 /* DateFormatString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateFormatString.h; path = ../DateFormatString.h; sourceTree = "<group>"; };
+		E73BAECD1976063A0069FAF4 /* DateFormatString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateFormatString.m; path = ../DateFormatString.m; sourceTree = "<group>"; };
+		E79359DB197E745F0013485A /* MemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemoViewController.h; path = ../MemoViewController.h; sourceTree = "<group>"; };
+		E79359DC197E745F0013485A /* MemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MemoViewController.m; path = ../MemoViewController.m; sourceTree = "<group>"; };
+		E7A1F2751971164700FC39FC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E7E3F1601996022600870DBB /* 3_5inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 3_5inch.storyboard; sourceTree = "<group>"; };
+		E7EDDB45194DBCF90081C656 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Events.h; path = ../Events.h; sourceTree = "<group>"; };
+		E7EDDB46194DBCF90081C656 /* Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Events.m; path = ../Events.m; sourceTree = "<group>"; };
+		E7EDDB51194DC8680081C656 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventViewController.h; path = ../EventViewController.h; sourceTree = "<group>"; };
+		E7EDDB52194DC8680081C656 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventViewController.m; path = ../EventViewController.m; sourceTree = "<group>"; };
+		E7F2D6041988B37700F208CA /* BackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundViewController.h; sourceTree = SOURCE_ROOT; };
+		E7F2D6051988B37700F208CA /* BackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundViewController.m; sourceTree = SOURCE_ROOT; };
+		E7F2D6071988C69800F208CA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E7F2D6091988C7FE00F208CA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F2D60A1988C7FE00F208CA /* MapKit.framework in Frameworks */,
+				E7F2D6081988C69800F208CA /* CoreLocation.framework in Frameworks */,
+				E7A1F2761971164700FC39FC /* Social.framework in Frameworks */,
 				E7114222193210C600C88D90 /* CoreGraphics.framework in Frameworks */,
 				E7114224193210C600C88D90 /* UIKit.framework in Frameworks */,
 				E7114220193210C600C88D90 /* Foundation.framework in Frameworks */,
@@ -104,6 +127,9 @@
 		E711421E193210C600C88D90 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E7F2D6091988C7FE00F208CA /* MapKit.framework */,
+				E7F2D6071988C69800F208CA /* CoreLocation.framework */,
+				E7A1F2751971164700FC39FC /* Social.framework */,
 				E711421F193210C600C88D90 /* Foundation.framework */,
 				E7114221193210C600C88D90 /* CoreGraphics.framework */,
 				E7114223193210C600C88D90 /* UIKit.framework */,
@@ -115,13 +141,22 @@
 		E7114225193210C600C88D90 /* Previous3 */ = {
 			isa = PBXGroup;
 			children = (
+				E79359DB197E745F0013485A /* MemoViewController.h */,
+				E79359DC197E745F0013485A /* MemoViewController.m */,
 				E711422E193210C600C88D90 /* AppDelegate.h */,
 				E711422F193210C600C88D90 /* AppDelegate.m */,
 				E7114231193210C600C88D90 /* Main.storyboard */,
+				E7E3F1601996022600870DBB /* 3_5inch.storyboard */,
 				E7114234193210C600C88D90 /* MasterViewController.h */,
 				E7114235193210C600C88D90 /* MasterViewController.m */,
-				E7114237193210C600C88D90 /* DetailViewController.h */,
-				E7114238193210C600C88D90 /* DetailViewController.m */,
+				E7F2D6041988B37700F208CA /* BackgroundViewController.h */,
+				E7F2D6051988B37700F208CA /* BackgroundViewController.m */,
+				E7EDDB45194DBCF90081C656 /* Events.h */,
+				E7EDDB46194DBCF90081C656 /* Events.m */,
+				E7EDDB51194DC8680081C656 /* EventViewController.h */,
+				E7EDDB52194DC8680081C656 /* EventViewController.m */,
+				E73BAECC1976063A0069FAF4 /* DateFormatString.h */,
+				E73BAECD1976063A0069FAF4 /* DateFormatString.m */,
 				E711423A193210C600C88D90 /* Images.xcassets */,
 				E7114226193210C600C88D90 /* Supporting Files */,
 			);
@@ -234,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E711423B193210C600C88D90 /* Images.xcassets in Resources */,
+				E7E3F1611996022600870DBB /* 3_5inch.storyboard in Resources */,
 				E711422A193210C600C88D90 /* InfoPlist.strings in Resources */,
 				E7114233193210C600C88D90 /* Main.storyboard in Resources */,
 			);
@@ -254,10 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7EDDB53194DC8680081C656 /* EventViewController.m in Sources */,
+				E73BAECE1976063A0069FAF4 /* DateFormatString.m in Sources */,
 				E7114230193210C600C88D90 /* AppDelegate.m in Sources */,
+				E79359DD197E745F0013485A /* MemoViewController.m in Sources */,
+				E7F2D6061988B37700F208CA /* BackgroundViewController.m in Sources */,
+				E7EDDB47194DBCF90081C656 /* Events.m in Sources */,
 				E7114236193210C600C88D90 /* MasterViewController.m in Sources */,
 				E711422C193210C600C88D90 /* main.m in Sources */,
-				E7114239193210C600C88D90 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +425,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Previous3/Previous3-Prefix.pch";
 				INFOPLIST_FILE = "Previous3/Previous3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,9 +436,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Previous3/Previous3-Prefix.pch";
 				INFOPLIST_FILE = "Previous3/Previous3-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +505,7 @@
 				E7114253193210C600C88D90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7114254193210C600C88D90 /* Build configuration list for PBXNativeTarget "Previous3Tests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +514,7 @@
 				E7114256193210C600C88D90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

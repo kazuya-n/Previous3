@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "DateFormatString.h"
 @interface MasterViewController : UITableViewController
+
+-(void)load;
+-(void)save;
+-(void)prepareBackground;
 
 @end

@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface DateFormat : NSDateFormatter
-
+@property NSDate *date;
+@property NSString *datestring;
 @end

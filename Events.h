@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Events : NSObject
-
+@interface Events : NSObject<NSCoding>
+@property NSString *title;
+@property NSDate *date;
+@property NSString *memo;
 @end

@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Events.h"
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface MemoViewController : UIViewController
+
+
+@property Events *events;
 
 @end

@@ -9,5 +9,7 @@
 #import "DateFormat.h"
 
 @implementation DateFormat
-
+-(NSString)dateFormatter24:(NSdate*):date{
+    
+}
 @end

@@ -10,6 +10,7 @@
 
 @interface BackgroundViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @end
 
 @implementation BackgroundViewController
@@ -26,6 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.titleLabel.text=self.events.title;
     // Do any additional setup after loading the view.
 }
 
@@ -34,6 +36,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation
